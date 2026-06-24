@@ -22,26 +22,6 @@ A real-time ray tracer built from scratch in **WGSL** and **JavaScript**, runnin
 
 WebGPU · WGSL · JavaScript (no frameworks)
 
-## Running locally
-
-Requires a WebGPU-capable browser (Chrome/Edge, or Firefox with `dom.webgpu.enabled`).
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open <http://localhost:8000/>.
-
-## Deploying
-
-This is a static site, so **GitHub Pages → Deploy from branch** is enough — you do not need GitHub Actions for this project.
-
-1. Push to `main`
-2. Repo **Settings → Pages**
-3. Source: **Deploy from a branch**
-4. Branch: `main` / **/ (root)**
-5. Save — the live URL will be `https://camcimahir.github.io/webgpu-ray-tracer/`
-
 ## Controls
 
 - **Sphere / Triangle** — choose the shading model for each object
